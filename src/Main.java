@@ -7,7 +7,7 @@ public class Main {
                       'T','U','V','W','X','Y','Z'};
 
     //Задание 2
-    for (int i=0; i <= intArr.length-1; i++)
+    for (int i=0; i < intArr.length; i++)
         {
             System.out.print(intArr[i]);
             if (i < intArr.length-1) {System.out.print(", ");}
@@ -28,7 +28,7 @@ public class Main {
         System.out.println("-----------------------------------------");
 
     //Задание 3
-        for (int i=intArr.length-1; i>-1 ; i--)
+        for (int i=intArr.length-1; i>=0 ; i--)
         {
             System.out.print(intArr[i]);
             if (i >0) {System.out.print(", ");}
@@ -48,7 +48,7 @@ public class Main {
         System.out.println();
         System.out.println("-----------------------------------------");
     //Задание 4
-    for (int i=0; i<= intArr.length-1; i++)
+    for (int i=0; i< intArr.length; i++)
     {
         if (intArr[i]%2 != 0){intArr[i] += 1;}
         System.out.print(intArr[i]);
