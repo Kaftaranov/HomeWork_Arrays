@@ -13,13 +13,13 @@ public class Main {
             if (i < intArr.length-1) {System.out.print(", ");}
         }
         System.out.println();
-        for (int i=0; i <= floatArr.length-1; i++)
+        for (int i=0; i < floatArr.length; i++)
         {
             System.out.print(floatArr[i]);
             if (i < floatArr.length-1) {System.out.print(", ");}
         }
         System.out.println();
-        for (int i=0; i <= charArr.length-1; i++)
+        for (int i=0; i < charArr.length; i++)
         {
             System.out.print(charArr[i]);
             if (i < charArr.length-1) {System.out.print(", ");}
@@ -34,13 +34,13 @@ public class Main {
             if (i >0) {System.out.print(", ");}
         }
         System.out.println();
-        for (int i = floatArr.length-1; i>-1; i--)
+        for (int i = floatArr.length-1; i>=0; i--)
         {
             System.out.print(floatArr[i]);
             if (i > 0) {System.out.print(", ");}
         }
         System.out.println();
-        for (int i = charArr.length-1; i>-1; i--)
+        for (int i = charArr.length-1; i>=0; i--)
         {
             System.out.print(charArr[i]);
             if (i > 0) {System.out.print(", ");}
